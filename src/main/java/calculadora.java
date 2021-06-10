@@ -15,8 +15,8 @@ class calculadora{
         int eleccion = scan.nextInt();
 
         System.out.println("Ingrese dos numeros");
-        int x = scan.nextInt();
-        int y = scan.nextInt();
+        float x = scan.nextFloat();
+        float y = scan.nextFloat();
 
         if(eleccion==1){
             System.out.println("La respuesta es: " + adicion(x,y));
@@ -33,20 +33,20 @@ class calculadora{
 
     }
 
-    public static int adicion(int x, int y){
-        int n = x + y;
+    public static float adicion(float x, float y){
+        float n = x + y;
         return n;
     }
-    public static int substraccion(int x, int y){
-        int n = x - y;
+    public static float substraccion(float x, float y){
+        float n = x - y;
         return n;
     }
-    public static int multiplicacion(int x, int y){
-        int n = x*y;
+    public static float multiplicacion(float x, float y){
+        float n = x*y;
         return n;
     }
-    public static int division(int x, int y){
-        int n = x/y;
+    public static float division(float x, float y){
+        float n = x/y;
         return n;
     }
 }
